@@ -36,6 +36,10 @@ insert into Alunos
 
 Select * From Alunos
 
+alter table Disciplinas
+modify column COD_DISC varchar (12)
+
+
 insert into Disciplinas
 (COD_DISC, nome_disc, carga_hor)
 Values
